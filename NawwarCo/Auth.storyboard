@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="8Wl-O0-ccu">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fNP-UU-YkU" customClass="LoginViewController" customModule="NawwarCo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N7c-PR-Xj9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pxk-qa-Q4n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FcI-O1-v9r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="poV-bm-YP0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="677"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginFrame" translatesAutoresizingMaskIntoConstraints="NO" id="bkD-k1-a17">
+                                <rect key="frame" x="4" y="150" width="367" height="435"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MdI-Vt-BtS">
+                                <rect key="frame" x="45" y="488" width="285" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.91601814849999996" blue="0.92599101620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kTj-ze-cHF"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="24" name="Avenir-BlackOblique"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="fNP-UU-YkU" eventType="touchUpInside" id="btW-vx-fLq"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FhQ-BL-9jL">
+                                <rect key="frame" x="45" y="350" width="285" height="35"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Z43-IP-ksB"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Encrypted User Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eke-gS-xhX">
+                                <rect key="frame" x="45" y="399" width="285" height="35"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="vOX-uA-URW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92618657559999995" green="0.96142077449999996" blue="0.94215480299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="eke-gS-xhX" firstAttribute="leading" secondItem="FcI-O1-v9r" secondAttribute="leadingMargin" constant="29" id="2mj-gf-rx2"/>
+                            <constraint firstItem="poV-bm-YP0" firstAttribute="top" secondItem="FcI-O1-v9r" secondAttribute="top" id="8Jg-1W-w9u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eke-gS-xhX" secondAttribute="trailing" constant="29" id="91q-0o-bGl"/>
+                            <constraint firstItem="MdI-Vt-BtS" firstAttribute="top" secondItem="eke-gS-xhX" secondAttribute="bottom" constant="54" id="AHm-PU-hSC"/>
+                            <constraint firstItem="bkD-k1-a17" firstAttribute="leading" secondItem="FcI-O1-v9r" secondAttribute="leading" constant="4" id="BZv-0z-58n"/>
+                            <constraint firstItem="bkD-k1-a17" firstAttribute="top" secondItem="N7c-PR-Xj9" secondAttribute="bottom" constant="130" id="LAa-Qe-pJn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MdI-Vt-BtS" secondAttribute="trailing" constant="29" id="QBf-IE-63y"/>
+                            <constraint firstItem="eke-gS-xhX" firstAttribute="top" secondItem="FhQ-BL-9jL" secondAttribute="bottom" constant="14" id="S46-NW-30e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FhQ-BL-9jL" secondAttribute="trailing" constant="29" id="aFp-rz-n6l"/>
+                            <constraint firstItem="FhQ-BL-9jL" firstAttribute="centerY" secondItem="bkD-k1-a17" secondAttribute="centerY" id="bGx-C1-U01"/>
+                            <constraint firstAttribute="bottom" secondItem="poV-bm-YP0" secondAttribute="bottom" constant="-10" id="bm2-kb-KnL"/>
+                            <constraint firstItem="FhQ-BL-9jL" firstAttribute="leading" secondItem="FcI-O1-v9r" secondAttribute="leadingMargin" constant="29" id="dzr-tF-oO6"/>
+                            <constraint firstItem="MdI-Vt-BtS" firstAttribute="leading" secondItem="FcI-O1-v9r" secondAttribute="leadingMargin" constant="29" id="jkQ-zj-8jx"/>
+                            <constraint firstItem="Pxk-qa-Q4n" firstAttribute="top" secondItem="bkD-k1-a17" secondAttribute="bottom" constant="82" id="ohp-BX-1t5"/>
+                            <constraint firstAttribute="trailing" secondItem="poV-bm-YP0" secondAttribute="trailing" id="r8y-11-gf3"/>
+                            <constraint firstAttribute="trailing" secondItem="bkD-k1-a17" secondAttribute="trailing" constant="4" id="vtg-6x-p5O"/>
+                            <constraint firstItem="poV-bm-YP0" firstAttribute="leading" secondItem="FcI-O1-v9r" secondAttribute="leading" id="yDf-bm-LtX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="FhQ-BL-9jL" id="Upc-xF-OQw"/>
+                        <outlet property="passwordTextField" destination="eke-gS-xhX" id="ZId-5z-biU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9GQ-XX-Hnf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.200000000000003" y="195.6521739130435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login" width="734" height="1003"/>
+        <image name="loginFrame" width="367" height="477"/>
+    </resources>
+</document>

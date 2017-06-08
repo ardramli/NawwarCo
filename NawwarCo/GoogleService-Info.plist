@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>567044899289-i15qbj7blf45jo6vvcbj3u23f0h8m2im.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.567044899289-i15qbj7blf45jo6vvcbj3u23f0h8m2im</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_RxYLlPuLft6gu9q_EGeabZCwGSF_3PQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>567044899289</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ardramli.NawwarCo</string>
+	<key>PROJECT_ID</key>
+	<string>nawwarco-5218e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nawwarco-5218e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:567044899289:ios:337d90d13e3aa168</string>
+	<key>DATABASE_URL</key>
+	<string>https://nawwarco-5218e.firebaseio.com</string>
+</dict>
+</plist>

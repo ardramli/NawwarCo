@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1CF8FC9932B6EC760E7B36 /* Pods_NawwarCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */; };
+		CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D71EE99DB50025DBEE /* AppDelegate.swift */; };
+		CED253DA1EE99DB50025DBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D91EE99DB50025DBEE /* ViewController.swift */; };
+		CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253DB1EE99DB50025DBEE /* Main.storyboard */; };
+		CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED253DE1EE99DB50025DBEE /* Assets.xcassets */; };
+		CED253E21EE99DB50025DBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253E01EE99DB50025DBEE /* LaunchScreen.storyboard */; };
+		CED253EA1EE99E380025DBEE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253E91EE99E380025DBEE /* Auth.storyboard */; };
+		CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */; };
+		CED253EE1EE9A1B80025DBEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED253ED1EE9A1B80025DBEE /* GoogleService-Info.plist */; };
+		CED253F11EE9C8B30025DBEE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253F01EE9C8B30025DBEE /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.release.xcconfig"; sourceTree = "<group>"; };
+		CED253D41EE99DB50025DBEE /* NawwarCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NawwarCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED253D71EE99DB50025DBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED253D91EE99DB50025DBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED253DC1EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED253DE1EE99DB50025DBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED253E11EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED253E31EE99DB50025DBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED253E91EE99E380025DBEE /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CED253ED1EE9A1B80025DBEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CED253F01EE9C8B30025DBEE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NawwarCo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FEA2E56311199F471922BD /* Pods-NawwarCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED253D11EE99DB50025DBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1CF8FC9932B6EC760E7B36 /* Pods_NawwarCo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF502619786934BF5A17A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3FEA2E56311199F471922BD /* Pods-NawwarCo.debug.xcconfig */,
+				409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		758DCD87ED8DB6C6FB336781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED253CB1EE99DB40025DBEE = {
+			isa = PBXGroup;
+			children = (
+				CED253D61EE99DB50025DBEE /* NawwarCo */,
+				CED253D51EE99DB50025DBEE /* Products */,
+				1BF502619786934BF5A17A75 /* Pods */,
+				758DCD87ED8DB6C6FB336781 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED253D51EE99DB50025DBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED253D41EE99DB50025DBEE /* NawwarCo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED253D61EE99DB50025DBEE /* NawwarCo */ = {
+			isa = PBXGroup;
+			children = (
+				CED253D71EE99DB50025DBEE /* AppDelegate.swift */,
+				CED253D91EE99DB50025DBEE /* ViewController.swift */,
+				CED253DB1EE99DB50025DBEE /* Main.storyboard */,
+				CED253E91EE99E380025DBEE /* Auth.storyboard */,
+				CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */,
+				CED253F01EE9C8B30025DBEE /* User.swift */,
+				CED253DE1EE99DB50025DBEE /* Assets.xcassets */,
+				CED253E01EE99DB50025DBEE /* LaunchScreen.storyboard */,
+				CED253E31EE99DB50025DBEE /* Info.plist */,
+				CED253ED1EE9A1B80025DBEE /* GoogleService-Info.plist */,
+			);
+			path = NawwarCo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED253D31EE99DB50025DBEE /* NawwarCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED253E61EE99DB50025DBEE /* Build configuration list for PBXNativeTarget "NawwarCo" */;
+			buildPhases = (
+				ABEEAF4C1F284809ACC74633 /* [CP] Check Pods Manifest.lock */,
+				CED253D01EE99DB50025DBEE /* Sources */,
+				CED253D11EE99DB50025DBEE /* Frameworks */,
+				CED253D21EE99DB50025DBEE /* Resources */,
+				FA029FCFA82834A637130E89 /* [CP] Embed Pods Frameworks */,
+				122C618E4B32D664364CAD80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NawwarCo;
+			productName = NawwarCo;
+			productReference = CED253D41EE99DB50025DBEE /* NawwarCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED253CC1EE99DB40025DBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ardMac;
+				TargetAttributes = {
+					CED253D31EE99DB50025DBEE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZQ547JDPVM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CED253CF1EE99DB50025DBEE /* Build configuration list for PBXProject "NawwarCo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED253CB1EE99DB40025DBEE;
+			productRefGroup = CED253D51EE99DB50025DBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED253D31EE99DB50025DBEE /* NawwarCo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED253D21EE99DB50025DBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED253EA1EE99E380025DBEE /* Auth.storyboard in Resources */,
+				CED253E21EE99DB50025DBEE /* LaunchScreen.storyboard in Resources */,
+				CED253EE1EE9A1B80025DBEE /* GoogleService-Info.plist in Resources */,
+				CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */,
+				CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		122C618E4B32D664364CAD80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEEAF4C1F284809ACC74633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA029FCFA82834A637130E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED253D01EE99DB50025DBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED253F11EE9C8B30025DBEE /* User.swift in Sources */,
+				CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */,
+				CED253DA1EE99DB50025DBEE /* ViewController.swift in Sources */,
+				CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CED253DB1EE99DB50025DBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED253DC1EE99DB50025DBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED253E01EE99DB50025DBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED253E11EE99DB50025DBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED253E41EE99DB50025DBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED253E51EE99DB50025DBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED253E71EE99DB50025DBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FEA2E56311199F471922BD /* Pods-NawwarCo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQ547JDPVM;
+				INFOPLIST_FILE = NawwarCo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardramli.NawwarCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CED253E81EE99DB50025DBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQ547JDPVM;
+				INFOPLIST_FILE = NawwarCo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardramli.NawwarCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED253CF1EE99DB50025DBEE /* Build configuration list for PBXProject "NawwarCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED253E41EE99DB50025DBEE /* Debug */,
+				CED253E51EE99DB50025DBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED253E61EE99DB50025DBEE /* Build configuration list for PBXNativeTarget "NawwarCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED253E71EE99DB50025DBEE /* Debug */,
+				CED253E81EE99DB50025DBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED253CC1EE99DB40025DBEE /* Project object */;
+}
