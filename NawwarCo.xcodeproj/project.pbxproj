@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9E1CF8FC9932B6EC760E7B36 /* Pods_NawwarCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */; };
 		CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D71EE99DB50025DBEE /* AppDelegate.swift */; };
-		CED253DA1EE99DB50025DBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D91EE99DB50025DBEE /* ViewController.swift */; };
 		CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253DB1EE99DB50025DBEE /* Main.storyboard */; };
 		CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED253DE1EE99DB50025DBEE /* Assets.xcassets */; };
 		CED253E21EE99DB50025DBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253E01EE99DB50025DBEE /* LaunchScreen.storyboard */; };
@@ -17,13 +16,16 @@
 		CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */; };
 		CED253EE1EE9A1B80025DBEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED253ED1EE9A1B80025DBEE /* GoogleService-Info.plist */; };
 		CED253F11EE9C8B30025DBEE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253F01EE9C8B30025DBEE /* User.swift */; };
+		CED253F41EEF1FD20025DBEE /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253F21EEF1FD20025DBEE /* ItemsTableViewCell.swift */; };
+		CED253F51EEF1FD20025DBEE /* ItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED253F31EEF1FD20025DBEE /* ItemsTableViewCell.xib */; };
+		CED253F71EEF25F50025DBEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253F61EEF25F50025DBEE /* HomeViewController.swift */; };
+		CED253F91EEF26D60025DBEE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253F81EEF26D60025DBEE /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.release.xcconfig"; sourceTree = "<group>"; };
 		CED253D41EE99DB50025DBEE /* NawwarCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NawwarCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED253D71EE99DB50025DBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED253D91EE99DB50025DBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED253DC1EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED253DE1EE99DB50025DBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED253E11EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +34,10 @@
 		CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CED253ED1EE9A1B80025DBEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CED253F01EE9C8B30025DBEE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CED253F21EEF1FD20025DBEE /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		CED253F31EEF1FD20025DBEE /* ItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemsTableViewCell.xib; sourceTree = "<group>"; };
+		CED253F61EEF25F50025DBEE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CED253F81EEF26D60025DBEE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NawwarCo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FEA2E56311199F471922BD /* Pods-NawwarCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				CED253D71EE99DB50025DBEE /* AppDelegate.swift */,
-				CED253D91EE99DB50025DBEE /* ViewController.swift */,
 				CED253DB1EE99DB50025DBEE /* Main.storyboard */,
+				CED253F81EEF26D60025DBEE /* Item.swift */,
+				CED253F61EEF25F50025DBEE /* HomeViewController.swift */,
+				CED253F21EEF1FD20025DBEE /* ItemsTableViewCell.swift */,
+				CED253F31EEF1FD20025DBEE /* ItemsTableViewCell.xib */,
 				CED253E91EE99E380025DBEE /* Auth.storyboard */,
 				CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */,
 				CED253F01EE9C8B30025DBEE /* User.swift */,
@@ -165,6 +174,7 @@
 			files = (
 				CED253EA1EE99E380025DBEE /* Auth.storyboard in Resources */,
 				CED253E21EE99DB50025DBEE /* LaunchScreen.storyboard in Resources */,
+				CED253F51EEF1FD20025DBEE /* ItemsTableViewCell.xib in Resources */,
 				CED253EE1EE9A1B80025DBEE /* GoogleService-Info.plist in Resources */,
 				CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */,
 				CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */,
@@ -226,9 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED253F71EEF25F50025DBEE /* HomeViewController.swift in Sources */,
+				CED253F41EEF1FD20025DBEE /* ItemsTableViewCell.swift in Sources */,
 				CED253F11EE9C8B30025DBEE /* User.swift in Sources */,
 				CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */,
-				CED253DA1EE99DB50025DBEE /* ViewController.swift in Sources */,
+				CED253F91EEF26D60025DBEE /* Item.swift in Sources */,
 				CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
