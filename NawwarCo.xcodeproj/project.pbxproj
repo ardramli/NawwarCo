@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1CF8FC9932B6EC760E7B36 /* Pods_NawwarCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */; };
+		CE361B3D1EF0732A00B00D2D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE361B3C1EF0732A00B00D2D /* AddItemViewController.swift */; };
 		CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D71EE99DB50025DBEE /* AppDelegate.swift */; };
 		CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253DB1EE99DB50025DBEE /* Main.storyboard */; };
 		CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED253DE1EE99DB50025DBEE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.release.xcconfig"; sourceTree = "<group>"; };
+		CE361B3C1EF0732A00B00D2D /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		CED253D41EE99DB50025DBEE /* NawwarCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NawwarCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED253D71EE99DB50025DBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED253DC1EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE361B3E1EF074C500B00D2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CED253F21EEF1FD20025DBEE /* ItemsTableViewCell.swift */,
+				CED253F31EEF1FD20025DBEE /* ItemsTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE361B3F1EF074D500B00D2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CED253F01EE9C8B30025DBEE /* User.swift */,
+				CED253F81EEF26D60025DBEE /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE361B401EF074EE00B00D2D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE361B3C1EF0732A00B00D2D /* AddItemViewController.swift */,
+				CED253F61EEF25F50025DBEE /* HomeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE361B411EF0751A00B00D2D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CED253E91EE99E380025DBEE /* Auth.storyboard */,
+				CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
 		CED253CB1EE99DB40025DBEE = {
 			isa = PBXGroup;
 			children = (
@@ -94,13 +132,10 @@
 			children = (
 				CED253D71EE99DB50025DBEE /* AppDelegate.swift */,
 				CED253DB1EE99DB50025DBEE /* Main.storyboard */,
-				CED253F81EEF26D60025DBEE /* Item.swift */,
-				CED253F61EEF25F50025DBEE /* HomeViewController.swift */,
-				CED253F21EEF1FD20025DBEE /* ItemsTableViewCell.swift */,
-				CED253F31EEF1FD20025DBEE /* ItemsTableViewCell.xib */,
-				CED253E91EE99E380025DBEE /* Auth.storyboard */,
-				CED253EB1EE99FBC0025DBEE /* LoginViewController.swift */,
-				CED253F01EE9C8B30025DBEE /* User.swift */,
+				CE361B401EF074EE00B00D2D /* ViewControllers */,
+				CE361B3F1EF074D500B00D2D /* Models */,
+				CE361B3E1EF074C500B00D2D /* Views */,
+				CE361B411EF0751A00B00D2D /* Auth */,
 				CED253DE1EE99DB50025DBEE /* Assets.xcassets */,
 				CED253E01EE99DB50025DBEE /* LaunchScreen.storyboard */,
 				CED253E31EE99DB50025DBEE /* Info.plist */,
@@ -240,6 +275,7 @@
 				CED253F41EEF1FD20025DBEE /* ItemsTableViewCell.swift in Sources */,
 				CED253F11EE9C8B30025DBEE /* User.swift in Sources */,
 				CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */,
+				CE361B3D1EF0732A00B00D2D /* AddItemViewController.swift in Sources */,
 				CED253F91EEF26D60025DBEE /* Item.swift in Sources */,
 				CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */,
 			);
