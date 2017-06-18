@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class AddItemViewController: UIViewController {
+class AddItemViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var imageView: UIImageView!{
         didSet{
             imageView.isUserInteractionEnabled = true
@@ -28,12 +28,18 @@ class AddItemViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        
+        itemNameTextField.delegate = self
+        itemColorTextField.delegate = self
+        itemQuantityTextField.delegate = self
+        
         ref = Database.database().reference()
-        // Do any additional setup after loading the view.
+        
     }
     @IBAction func doneButtonTapped(_ sender: Any) {
-        
+        handleCreateItem()
     }
 
     func imageTapped(){
@@ -73,10 +79,8 @@ class AddItemViewController: UIViewController {
     }
     
     func registerItemIntoDatabaseWithUID(itemId : String, values: [String: Any]) {
-        let teamReference = ref.child("items").child(itemId)
-        teamReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
-            
-            // >> stop loading screen
+        let itemReference = ref.child("items").child(itemId)
+        itemReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
             
             if err != nil {
                 print(err!)
@@ -85,6 +89,23 @@ class AddItemViewController: UIViewController {
         })
         
     }
+    
+    func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y == 0{
+                self.view.frame.origin.y -= keyboardSize.height - 49
+            }
+        }
+    }
+    
+    func keyboardWillHide(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y != 0{
+                self.view.frame.origin.y += keyboardSize.height - 49
+            }
+        }
+    }
+
 }
 
 extension AddItemViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
