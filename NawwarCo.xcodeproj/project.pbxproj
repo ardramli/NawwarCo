@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E1CF8FC9932B6EC760E7B36 /* Pods_NawwarCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF661BBFEF1C95F9401292B /* Pods_NawwarCo.framework */; };
 		CE361B3D1EF0732A00B00D2D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE361B3C1EF0732A00B00D2D /* AddItemViewController.swift */; };
+		CEB2225E1EF7D7790044A980 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2225D1EF7D7790044A980 /* ImageLoader.swift */; };
 		CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED253D71EE99DB50025DBEE /* AppDelegate.swift */; };
 		CED253DD1EE99DB50025DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED253DB1EE99DB50025DBEE /* Main.storyboard */; };
 		CED253DF1EE99DB50025DBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED253DE1EE99DB50025DBEE /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		409C125131BE8D532D1A0585 /* Pods-NawwarCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawwarCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NawwarCo/Pods-NawwarCo.release.xcconfig"; sourceTree = "<group>"; };
 		CE361B3C1EF0732A00B00D2D /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		CEB2225D1EF7D7790044A980 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		CED253D41EE99DB50025DBEE /* NawwarCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NawwarCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED253D71EE99DB50025DBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED253DC1EE99DB50025DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		CED253D61EE99DB50025DBEE /* NawwarCo */ = {
 			isa = PBXGroup;
 			children = (
+				CEB2225D1EF7D7790044A980 /* ImageLoader.swift */,
 				CED253D71EE99DB50025DBEE /* AppDelegate.swift */,
 				CED253DB1EE99DB50025DBEE /* Main.storyboard */,
 				CE361B401EF074EE00B00D2D /* ViewControllers */,
@@ -277,6 +280,7 @@
 				CED253EC1EE99FBC0025DBEE /* LoginViewController.swift in Sources */,
 				CE361B3D1EF0732A00B00D2D /* AddItemViewController.swift in Sources */,
 				CED253F91EEF26D60025DBEE /* Item.swift in Sources */,
+				CEB2225E1EF7D7790044A980 /* ImageLoader.swift in Sources */,
 				CED253D81EE99DB50025DBEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

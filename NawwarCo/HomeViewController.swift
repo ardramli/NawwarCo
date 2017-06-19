@@ -63,6 +63,8 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         cell.itemNameLabel.text = items[indexPath.row].name
         cell.itemColorLabel.text = items[indexPath.row].color
         cell.itemQuantityLabel.text = String(items[indexPath.row].quantity)
+        cell.itemImageView.loadImageUsingCacheWithUrlString(urlString: items[indexPath.row].photoURL!)
+        
         
         
         return cell

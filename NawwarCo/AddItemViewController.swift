@@ -45,7 +45,7 @@ class AddItemViewController: UIViewController, UITextFieldDelegate {
 
     func imageTapped(){
         picker.delegate = self
-        picker.allowsEditing = true
+        picker.allowsEditing = false
         present(picker, animated: true, completion: nil)
     }
     

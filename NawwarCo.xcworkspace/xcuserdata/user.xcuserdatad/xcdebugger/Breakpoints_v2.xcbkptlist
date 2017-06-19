@@ -58,7 +58,7 @@
                   moduleName = "NawwarCo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/LoginViewController.swift"
-                  timestampString = "519544918.536597"
+                  timestampString = "519547416.095385"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
@@ -73,7 +73,7 @@
                   moduleName = "NawwarCo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/LoginViewController.swift"
-                  timestampString = "519544918.540225"
+                  timestampString = "519547416.097583"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -96,150 +96,6 @@
             startingLineNumber = "53"
             endingLineNumber = "53"
             landmarkName = "handleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NawwarCo/HomeViewController.swift"
-            timestampString = "519544860.703156"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NawwarCo/HomeViewController.swift"
-            timestampString = "519544862.278627"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "populateItems()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NawwarCo.HomeViewController.populateItems () -&gt; ()"
-                  moduleName = "NawwarCo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/HomeViewController.swift"
-                  timestampString = "519544918.559827"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "15">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NawwarCo.HomeViewController.(populateItems () -&gt; ()).(closure #1)"
-                  moduleName = "NawwarCo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/HomeViewController.swift"
-                  timestampString = "519544918.563143"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NawwarCo/HomeViewController.swift"
-            timestampString = "519544881.611961"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "populateItems()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NawwarCo/HomeViewController.swift"
-            timestampString = "519544885.285539"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "addToItems(id:itemInfo:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NawwarCo.HomeViewController.addToItems (id : Swift.String, itemInfo : __ObjC.NSDictionary) -&gt; ()"
-                  moduleName = "NawwarCo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/HomeViewController.swift"
-                  timestampString = "519544918.576753"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "63">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NawwarCo.HomeViewController.addToItems (id : Swift.String, itemInfo : __ObjC.NSDictionary) -&gt; ()"
-                  moduleName = "NawwarCo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Desktop/iOS%20Dev/NawwarCo/NawwarCo/HomeViewController.swift"
-                  timestampString = "519544918.581291"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "947">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NawwarCo/HomeViewController.swift"
-            timestampString = "519544888.313752"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "addToItems(id:itemInfo:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
