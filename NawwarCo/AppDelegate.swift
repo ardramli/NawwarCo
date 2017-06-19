@@ -14,10 +14,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
+//        self.storyboard =  UIStoryboard(name: "Main", bundle: Bundle.main)
+        let currentUser = Auth.auth().currentUser
+        if currentUser != nil
+        {
+            let initController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainViewController")
+            self.window?.rootViewController = initController
+        }
+        else
+        {
+            let loginController = UIStoryboard(name: "Auth", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController")
+            self.window?.rootViewController = loginController
+        }
         
         // Override point for customization after application launch.
         return true

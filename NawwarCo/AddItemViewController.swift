@@ -24,6 +24,7 @@ class AddItemViewController: UIViewController, UITextFieldDelegate {
     
     let picker = UIImagePickerController()
     var ref: DatabaseReference!
+    var currentUser = User.currentUser
     var itemID : String = ""
     
     override func viewDidLoad() {

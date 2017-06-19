@@ -33,28 +33,26 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBAction func loginButtonTapped(_ sender: Any) {
         handleLogin()
     }
-    
+
     func handleLogin(){
-        func handleLogin(){
-            guard let email = emailTextField.text, let password = passwordTextField.text else {
-                print("Form is not valid")
-                return
-            }
-            
-            if email == "" || password == "" {
-                warningPopUp(withTitle: "Input Error", withMessage: "Email or Password can't be empty")
-                return
-            }
-            
-            Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
-                if error != nil {
-                    self.warningPopUp(withTitle: "Input Error", withMessage: "Email or Password is incorrect")
-                    return
-                }
-                self.goToMainVC()
-                self.clearTextField()
-            })
+        guard let email = emailTextField.text, let password = passwordTextField.text else {
+            print("Form is not valid")
+            return
         }
+        
+        if email == "" || password == "" {
+            warningPopUp(withTitle: "Input Error", withMessage: "Email or Password can't be empty")
+            return
+        }
+        
+        Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
+            if error != nil {
+                self.warningPopUp(withTitle: "Input Error", withMessage: "Email or Password is incorrect")
+                return
+            }
+            self.goToMainVC()
+            self.clearTextField()
+        })
     }
     func clearTextField(){
         emailTextField.text = ""
