@@ -27,10 +27,23 @@ class HomeViewController: UIViewController {
     }
     
     func populateItems(){
-//        Database.database().reference().child("items").observe(.childAdded, with: { (snapshot) in
-//            <#code#>
-//        })
-//        
+        Database.database().reference().child("items").observe(.childAdded, with: { (snapshot) in
+            print(snapshot)
+            
+            guard let items = snapshot.value as? NSDictionary else {return}
+            self.addToItems(id: snapshot.key, itemInfo: items)
+            self.tableView.reloadData()
+        })
+    }
+    
+    func addToItems(id: String, itemInfo: NSDictionary){
+        if let itemName = itemInfo["name"] as? String,
+            let itemColor = itemInfo["color"] as? String,
+            let itemQuantity = itemInfo["quantity"] as? Int,
+            let itemPhotoUrl = itemInfo["itemPhotoUrl"] as? String {
+                let newItem = Item(withName: itemName, withPhoto: itemPhotoUrl, withColor: itemColor, withQuantity: itemQuantity)
+                self.items.append(newItem)
+        }
     }
 
 }
